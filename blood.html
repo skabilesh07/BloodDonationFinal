@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood_Donation_Camp</title>
+    <link rel="stylesheet" href="blood.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="blood.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-0" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="#"><img src="blood-donation-blood-drop-svgrepo-com.svg" alt="BloodSource" height="30px">BloodSource</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/about">About</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="col-md-3 text-end">
+                <a class="a-tag"href="/signup"><button type="button" class="btn btn-outline-primary me-2">Login</button></a>
+                <a class="a-tag"href="/login"><button type="button" class="btn btn-outline-primary me-2">Sign Up</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="title" class="intro">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="save blood.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1  class="display-5 lh-1 mb-3" id="quotes">A drop for you,ocean for someone else</h1>
+                <p class="info">BloodSource believes in donation of blood not by nation,but from a goodwill to help the society</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a href="/login"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Sign up</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="second" class="details">
+        <div class="px-4 py-5 my-0  text-center">
+          <img class="d-block mx-auto mb-4" src="benefits.jpg" alt="benefits" width="200" height="200">
+          <h1 class="display-5 fw-bold text-body-emphasis text-warning">WHY TO DONATE BLOOD?</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Donating blood has benefits for your physical and emotional health like reducess stress,improves emotinal well being and benefits physical health  </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <p class="lead mb-4">Making a blood donation is ultimate sign of solidarity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="third" class="features">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">BloodSource features</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="medical-staff-svgrepo-com.svg" alt="BloodSource" height="40px">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Medical staff</h3>
+              <p>The medical staff and volunteers have a good medical experience conducting successful bloodcamps</p>
+
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="building-svgrepo-com.svg" alt="BloodSource" height="40px">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Connectivity</h3>
+              <p>Various government and private hospitals are tied up with our organization and the transfer of the required blood is provided afer authenication</p>
+
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="worldwide-security-svgrepo-com.svg" alt="BloodSource" height="40px">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Countrywide Service</h3>
+              <p>Various blood donation camps are held countrywide during weekends for donors time convience</p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="images" class="photos">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="don_blr.jpg" class="d-block w-100" alt="..." width="600px" height="700px">
+          </div>
+          <div class="carousel-item">
+            <img src="don_mys.jpg" class="d-block w-100" alt="..." width="600px" height="700px">
+          </div>
+          <div class="carousel-item">
+            <img src="don_pun.jpg" class="d-block w-100" alt="..." width="600px" height="700px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="footer" class="last">
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-0 border-top ml-0 mr-0">
+        <p class="col-md-4 mb-0 text-warning">© 2023 BloodSource, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="/" class="nav-link px-2 text-warning">Home</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link px-2  text-warning">about</a></li>
+        </ul>
+      </footer>
+    </div>
+  </section>
+</body>
+</html>

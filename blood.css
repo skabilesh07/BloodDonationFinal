@@ -1,0 +1,57 @@
+body{
+    background-color: aqua;
+}
+.a-tag
+{
+    text-decoration: none;
+}
+.lead{
+    color:#FAF0D7;
+    font-size: large;
+}
+.intro
+{
+    background-image: url("warm.avif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.details
+{
+    background-image: url("donor_day.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.features
+{
+    background-image: url("good.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+p
+{
+    font-size: large;
+}
+.photos
+{
+    width:70%;
+    margin: auto;
+}
+.last
+{
+    background-image: url("footer-bg2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#quotes
+{
+    color:#CD6688;
+}
+.info
+{
+    color:darkred;
+}

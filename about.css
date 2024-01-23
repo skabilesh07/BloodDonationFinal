@@ -1,0 +1,29 @@
+.lead
+{
+    font-size: xx-large;
+    color:#0B2447;
+}
+#company
+{
+    border-radius: 80%;
+}
+body{
+  background-image: url("https://img.freepik.com/premium-photo/strong-monolithic-company-structure-hierarchical-pyramid-concept-society-business-ranking-system-superiors-subordinates-efficiency-meritocracy-corporate-conformism-personnel-management_72572-3087.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.about-us
+{
+  color: #CD6688;
+}
+.a-tag
+{
+  text-decoration: none;
+}
+.contact
+{
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}

@@ -1,0 +1,11 @@
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .last
+    {
+        background-image: url("footer-bg2.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
